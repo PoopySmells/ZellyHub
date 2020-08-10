@@ -1,10 +1,7 @@
 local MainTable = {};
 local Count = 0
 
-local AddTable = {
-  ["GunMods"] = "+";
-  ["GodMode"] = "-";
-}
+local AddTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/Snakeboy99/ZellyHub/master/TableGrab"))();
 
 for i,v in pairs(AddTable) do
     MainTable[#MainTable + 1] = {
