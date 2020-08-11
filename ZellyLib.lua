@@ -30,33 +30,6 @@ ZellyLib.Name = "Zelly Lib"
 ZellyLib.Parent = game:GetService("CoreGui")
 ZellyLib.ResetOnSpawn = false
 
-
-getgenv().Theme = {
-    TitleColor = Color3.fromRGB(222, 222, 222);
-    UnderlineColor = Color3.fromRGB(110, 58, 200);
-    MainColor = Color3.fromRGB(32, 32, 32);
-    SecondaryColor = Color3.fromRGB(34, 34, 34);
-    ToggleOnColor = Color3.fromRGB(110, 58, 200);
-    ToggleOffColor = Color3.fromRGB(60, 60, 60);
-    ButtonColor = Color3.fromRGB(110, 58, 200);
-    SliderColor = Color3.fromRGB(110, 58, 200);
-    CloseUIColor = Color3.fromRGB(110, 58, 200);
-    TextColor = Color3.fromRGB(222, 222, 222);
-    BindColor = Color3.fromRGB(110, 58, 200);
-    BindTextColor = Color3.fromRGB(255, 255, 255);
-    DropDownBoarder = Color3.fromRGB(28, 28, 28);
-    BoxTextColor = Color3.fromRGB(255, 255, 255);
-    BoxColor = Color3.fromRGB(47, 47, 47);
-    DropDownColor = Color3.fromRGB(26, 26, 26);
-    Drop = Color3.fromRGB(26, 26, 26);
-    ToggleBackGround = Color3.fromRGB(48, 48, 48);
-    ColorPickerColor = Color3.fromRGB(110, 58, 200);
-    OpenUIColor = Color3.fromRGB(74, 72, 72);
-    SliderLineColor = Color3.fromRGB(255, 255, 255);
-    DropDownTextColor = Color3.fromRGB(222, 222, 222);
-    DropDownArrow = Color3.fromRGB(231, 231, 231);
-}
-
 function library:Window(WindowName)
 	library.count = library.count + 1
 	local UI = {};
