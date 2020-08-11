@@ -223,7 +223,7 @@ function library:Window(WindowName)
     function UI:Toggle(name,callback)
     	local callback = callback or function() end;
         local Enabled = false
-        UI.flags[toggleName] = Enabled;
+        UI.flags[name] = Enabled;
 
     	local ToggleHolder = Instance.new("Frame")
 		local Toggle = Instance.new("TextButton")
