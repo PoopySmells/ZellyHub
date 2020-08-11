@@ -189,7 +189,7 @@ function library:Window(WindowName)
 	local Enabled = false;
 	GetToggle.MouseButton1Click:Connect(function()
 		Enabled = not Enabled
-		local Color = Enabled and getgenv().Theme.CloseUIColor or getgenv().Theme.OpenUIColor
+		local Color = Enabled and getgenv().Theme.OpenUIColor or getgenv().Theme.CloseUIColor
 		TweenService:Create(FindImage,tweenInfo,{ImageColor3 = Color}):Play()
         wait()
 		local y = 36;
