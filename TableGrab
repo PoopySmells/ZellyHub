@@ -1,5 +1,7 @@
 local UpdatedTableResults = {};
 
-UpdatedTableResults["Added DICKHEAD"] = "+"
+for i = 1,200 do
+  UpdatedTableResults["Added DICKHEAD"] = "+"
+end
 
 return UpdatedTableResults
