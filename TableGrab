@@ -1,24 +1,6 @@
 local UpdatedTableResults = {};
 
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
-UpdatedTableResults["p25p"] = "+"
+UpdatedTableResults["get good u noob"] = "+"
+UpdatedTableResults["eat some tacos"] = "+"
 
 return UpdatedTableResults
