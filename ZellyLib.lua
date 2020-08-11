@@ -1,4 +1,4 @@
-local library = {count = 0,Flags = {}};
+local library = {count = 0};
 
 if game:GetService("CoreGui"):FindFirstChild("Zelly Lib") then
    game:GetService("CoreGui"):FindFirstChild("Zelly Lib"):Destroy()
@@ -32,7 +32,7 @@ ZellyLib.ResetOnSpawn = false
 
 function library:Window(WindowName)
 	library.count = library.count + 1
-	local UI = {};
+	local UI = {flags = {}};
  	local Main = Instance.new("Frame")
  	local Underline = Instance.new("Frame")
 	local WindowTitle = Instance.new("TextLabel")
@@ -223,7 +223,7 @@ function library:Window(WindowName)
     function UI:Toggle(name,callback)
     	local callback = callback or function() end;
         local Enabled = false
-        library.Flags[toggleName] = Enabled;
+        UI.flags[toggleName] = Enabled;
 
     	local ToggleHolder = Instance.new("Frame")
 		local Toggle = Instance.new("TextButton")
@@ -305,7 +305,7 @@ function library:Window(WindowName)
 
 		Toggle.MouseButton1Click:Connect(function()
 			Enabled = not Enabled
-			library.Flags[name] = Enabled
+			UI.flags[name] = Enabled
 			callback(Enabled)
 			local Color = Enabled and getgenv().Theme.ToggleOnColor or getgenv().Theme.ToggleOffColor
 			local Position = Enabled and UDim2.new(0.675, 0,0.5, 0) or UDim2.new(0.325, 0,0.5, 0)
