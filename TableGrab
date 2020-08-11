@@ -2,5 +2,12 @@ local UpdatedTableResults = {};
 
 UpdatedTableResults["get good u noob"] = "+"
 UpdatedTableResults["eat some tacos"] = "+"
+UpdatedTableResults["taco gang gang "] = "+"
+UpdatedTableResults["u feel me"] = "+"
+UpdatedTableResults["youngstar is cool"] = "+"
+UpdatedTableResults["so very cool man"] = "+"
+UpdatedTableResults["do u agree with me man"] = "+"
+UpdatedTableResults["taco gang is best"] = "+"
+UpdatedTableResults["yessirr"] = "+"
 
 return UpdatedTableResults
