@@ -4,5 +4,6 @@ UpdatedTableResults["Added GunMods"] = "+"
 UpdatedTableResults["Removed GodMode"] = "-"
 UpdatedTableResults["Added No Recoil"] = "+"
 UpdatedTableResults["Added Anti Aim"] = "+"
+UpdatedTableResults["YoungStar Hot"] = "+"
 
 return UpdatedTableResults
