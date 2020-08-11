@@ -1,5 +1,5 @@
 local UpdatedTableResults = {};
 
-UpdatedTableResults["pp"] = "+"
+UpdatedTableResults["p25p"] = "+"
 
 return UpdatedTableResults
