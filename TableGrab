@@ -1,10 +1,5 @@
 local UpdatedTableResults = {};
 
-UpdatedTableResults["Added GunMods"] = "+"
-UpdatedTableResults["Removed GodMode"] = "-"
-UpdatedTableResults["Added No Recoil"] = "+"
-UpdatedTableResults["Added Anti Aim"] = "+"
-UpdatedTableResults["YoungStar Hot"] = "+"
-UpdatedTableResults["Zelly Sexy"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
 
 return UpdatedTableResults
