@@ -1,5 +1,5 @@
 local UpdatedTableResults = {};
 
-UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["pp"] = "+"
 
 return UpdatedTableResults
