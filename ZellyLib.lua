@@ -120,7 +120,7 @@ function library:Window(WindowName)
 	ToggleImage.Size = UDim2.new(1, 0, 1, 0)
 	ToggleImage.ZIndex = 6
 	ToggleImage.Image = "rbxassetid://3570695787"
-	ToggleImage.ImageColor3 = getgenv().Theme.CloseUIColor
+	ToggleImage.ImageColor3 = getgenv().Theme.OpenUIColor
 	ToggleImage.ScaleType = Enum.ScaleType.Slice
 	ToggleImage.SliceCenter = Rect.new(100, 100, 100, 100)
 	ToggleImage.SliceScale = 0.030
@@ -189,7 +189,7 @@ function library:Window(WindowName)
 	local Enabled = false;
 	GetToggle.MouseButton1Click:Connect(function()
 		Enabled = not Enabled
-		local Color = Enabled and getgenv().Theme.OpenUIColor or getgenv().Theme.CloseUIColor
+		local Color = Enabled and getgenv().Theme.CloseUIColor or getgenv().Theme.OpenUIColor
 		TweenService:Create(FindImage,tweenInfo,{ImageColor3 = Color}):Play()
         wait()
 		local y = 36;
