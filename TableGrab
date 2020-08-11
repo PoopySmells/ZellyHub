@@ -1,7 +1,33 @@
 local UpdatedTableResults = {};
 
-for i = 1,200 do
-  UpdatedTableResults["Added DICKHEAD"] = "+"
-end
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
+UpdatedTableResults["Added DICKHEAD"] = "+"
 
 return UpdatedTableResults
