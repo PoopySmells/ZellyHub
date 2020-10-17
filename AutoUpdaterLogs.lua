@@ -9,7 +9,6 @@ for i,v in pairs(AddTable) do
       StatSign = tostring(v);
       OrderNum = Count;
     }
-     Count = Count + 1
 end
 
 return MainTable;
